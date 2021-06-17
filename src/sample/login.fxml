@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="240.0" styleClass="anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="73.0" layoutY="203.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="42.0" styleClass="red" stylesheets="@style.css" textFill="#ed0000">
+         <graphic>
+            <ImageView fitHeight="16.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/32178.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="14.0" prefHeight="17.0" prefWidth="218.0" text="Insert your pin code:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="bt8" layoutX="73.0" layoutY="91.0" mnemonicParsing="false" onAction="#add8" prefHeight="25.0" prefWidth="42.0" text="8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt9" layoutX="126.0" layoutY="91.0" mnemonicParsing="false" onAction="#add9" prefHeight="25.0" prefWidth="42.0" text="9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt7" layoutX="20.0" layoutY="91.0" mnemonicParsing="false" onAction="#add7" prefHeight="25.0" prefWidth="42.0" text="7">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt4" layoutX="20.0" layoutY="129.0" mnemonicParsing="false" onAction="#add4" prefHeight="25.0" prefWidth="42.0" text="4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt1" layoutX="20.0" layoutY="165.0" mnemonicParsing="false" onAction="#add1" prefHeight="25.0" prefWidth="42.0" text="1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt5" layoutX="73.0" layoutY="129.0" mnemonicParsing="false" onAction="#add5" prefHeight="25.0" prefWidth="42.0" text="5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt2" layoutX="73.0" layoutY="165.0" mnemonicParsing="false" onAction="#add2" prefHeight="25.0" prefWidth="42.0" text="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt6" layoutX="126.0" layoutY="129.0" mnemonicParsing="false" onAction="#add6" prefHeight="25.0" prefWidth="42.0" text="6">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt3" layoutX="126.0" layoutY="165.0" mnemonicParsing="false" onAction="#add3" prefHeight="25.0" prefWidth="42.0" text="3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bt0" layoutX="20.0" layoutY="203.0" mnemonicParsing="false" onAction="#add0" prefHeight="25.0" prefWidth="42.0" text="0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="126.0" layoutY="203.0" mnemonicParsing="false" onAction="#deleteLast" prefHeight="25.0" prefWidth="42.0" styleClass="yellow" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/725004.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="accept" layoutX="185.0" layoutY="90.0" mnemonicParsing="false" onAction="#checkPin" prefHeight="140.0" prefWidth="42.0" styleClass="green" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/1633830.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <PasswordField fx:id="pin" editable="false" layoutX="46.0" layoutY="42.0" />
+      <Label fx:id="error" alignment="CENTER" contentDisplay="CENTER" layoutX="21.0" layoutY="236.0" prefHeight="60.0" prefWidth="211.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

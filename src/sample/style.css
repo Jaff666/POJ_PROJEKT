@@ -1,0 +1,13 @@
+.green {
+    -fx-background-color: green;
+}
+.yellow {
+    -fx-background-color: yellow;
+}
+.red {
+    -fx-background-color: red;
+}
+.anchor {
+    -fx-background-image: url("Images/background.jpg");
+    -fx-background-size: 100% 100%;
+}
